@@ -1,5 +1,10 @@
 <?php
-
+/**
+ * Twilio SMS Composer Class
+ *
+ * @author Ibrahim Azhar <azhar@iarmar.com>
+ * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
+ */
 namespace Oml\PHPAPIService\Twilio\SMS;
 
 use Services_Twilio;
