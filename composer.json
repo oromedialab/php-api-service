@@ -9,7 +9,6 @@
             "email": "azhar@iarmar.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "twilio/sdk": "*"
     },
