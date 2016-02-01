@@ -1,0 +1,23 @@
+{
+	"name": "oromedialab/php-api-services",
+	"description": "PHP API Service Library",
+	"license": "MIT",
+	"keywords": ["php-api-service", "api-service", "api"],
+	"authors": [
+        {
+            "name": "Ibrahim Azhar Armar",
+            "email": "azhar@iarmar.com"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oml\\PHPAPIService\\": "src/PHPAPIService/"
+        }
+    }
+}
