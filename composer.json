@@ -1,5 +1,5 @@
 {
-	"name": "oromedialab/php-api-services",
+	"name": "oromedialab/php-api-service",
 	"description": "PHP API Service Library",
 	"license": "MIT",
 	"keywords": ["php-api-service", "api-service", "api"],
