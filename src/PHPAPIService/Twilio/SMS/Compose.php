@@ -19,13 +19,6 @@ class Compose
 	protected $accountSid;
 
 	/**
-	 * Response received after sending the SMS
-	 *
-	 * @return string
-	 */
-	protected $messageSid;
-
-	/**
 	 * Auth Token (Twilio)
 	 *
 	 * @var string
@@ -73,16 +66,6 @@ class Compose
 	protected function getAccountSid()
 	{
 		return $this->accountSid;
-	}
-
-	/**
-	 * Get Message SID
-	 *
-	 * @return string
-	 */
-	public function getMessageSid()
-	{
-		return $this->messageSid;
 	}
 
 	/**
@@ -164,7 +147,7 @@ class Compose
 	/**
 	 * Send Message
 	 *
-	 * @return boolean
+	 * @return Services_Twilio_Rest_Message
 	 */
 	public function send()
 	{
@@ -183,7 +166,6 @@ class Compose
 		} catch (Services_Twilio_RestException $e) {
 		    return false;
 		}
-		$this->messageSid = $message->sid;
-		return true;
+		return $message;
 	}
 }
