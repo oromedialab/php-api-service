@@ -17,9 +17,10 @@ $sms = new SMS\Compose($accountSid, $authToken);
 $sms->setFrom('xxx-xxx-xxx');
 $sms->setTo('xxx-xxx-xxx');
 $sms->setMessage('Lorem ipsum dolor sit amet, consectetur adipisicing elit.');
-if($sms->send()) {
-	echo $sms->getMessageSid();
-} else {
-	echo 'message not sent';
-}
+$response = $sms->send();
+
+// Get message status
+$status = $response->status;
+// Get message SID
+$messageSid = $response->sid;
 ```
