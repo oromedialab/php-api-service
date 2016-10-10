@@ -1,4 +1,4 @@
-PHP API Serives Library
+PHP API Services Library
 =============
 
 
