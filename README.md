@@ -1,9 +1,8 @@
 PHP API Services Library
 =============
 
-API Services
-* [Twilio](https://github.com/oromedialab/php-api-service#twilio)
-* [Messente](https://github.com/oromedialab/php-api-service#messente)
+* [Twilio](https://github.com/oromedialab/php-api-service#twilio-)
+* [Messente](https://github.com/oromedialab/php-api-service#messente-)
 
 Installation
 ------------
