@@ -10,14 +10,16 @@
         }
     ],
     "require": {
-        "twilio/sdk": "*"
+        "twilio/sdk": "4.11.0",
+        "guzzlehttp/guzzle": "^6.2"
     },
     "require-dev": {
         "phpunit/phpunit": "4.0.*"
     },
     "autoload": {
         "psr-4": {
-            "Oml\\PHPAPIService\\": "src/PHPAPIService/"
+            "Oml\\PHPAPIService\\": "src/PHPAPIService/",
+            "Oml\\PHPAPIService\\Test\\": "tests/"
         }
     }
 }

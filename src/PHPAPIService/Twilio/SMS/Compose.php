@@ -7,9 +7,10 @@
  */
 namespace Oml\PHPAPIService\Twilio\SMS;
 
+use Oml\PHPAPIService\Interfaces\SMS\ComposerInterface;
 use Services_Twilio;
 
-class Compose
+class Compose implements ComposerInterface
 {
 	/**
 	 * Account SID (Twilio)
